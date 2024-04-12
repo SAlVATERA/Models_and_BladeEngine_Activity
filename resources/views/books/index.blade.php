@@ -2,6 +2,8 @@
 
 @section('content')
     <div class="container mx-auto">
+        @include('_header')
+
         <h1 class="text-3xl font-bold mb-4">Book List</h1>
         <table class="min-w-full">
             <thead>
@@ -25,5 +27,7 @@
                 @endforeach
             </tbody>
         </table>
+
+        @include('_footer')
     </div>
 @endsection
