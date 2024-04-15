@@ -12,6 +12,3 @@ class BookSeeder extends Seeder
         Book::factory()->count(20)->create();
     }
 }
-
-//php artisan db:seed --class=BookSeeder
-// gamitin mo toh para mag generate nang books
